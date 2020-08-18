@@ -1,0 +1,73 @@
+
+.video-example {
+    padding: 50px 0 100px 0;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__left-col {
+        width: 65%;
+    }
+
+    &__right-col {
+        img {
+            display: block;
+            margin-top: -2px;
+        }
+    }
+    
+    &__name {
+        margin-bottom: 30px;
+    }
+
+    &__embed {
+        margin-bottom: 50px;
+    }
+
+    &__description-title {
+        font-size: 20px;
+        padding-bottom: 10px;
+        border-bottom: 1px dashed $textColor;
+        margin-bottom: 20px;
+    }
+
+    &__description-text {
+        line-height: 1.4;
+        margin-bottom: 50px;
+    }
+
+    &__cta-box {
+        box-shadow: $boxShadow;
+        padding: 40px;
+        border-radius: $borderRadius;
+        text-align: center;
+    }
+
+}
+
+.cta-box {
+
+    &__title {
+        font-size: 20px;
+        color: $primaryColor;
+        margin-bottom: 20px;
+    }
+
+    &__text {
+        margin-bottom: 20px;
+    }
+}
+
+/* WISTIA STYLES */
+
+.wistia_embed {
+    box-shadow: 12px 12px 0px rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    transition: all .3s ease-out;
+    background-image: url(../assets/images/icons/loader.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 10%;
+}

@@ -1,0 +1,33 @@
+
+.products {
+
+    &__box {
+        padding: 40px;
+        box-shadow: $boxShadow;
+        border-radius: $borderRadius;
+        display: flex;
+        align-items: center;
+
+        &:not(:last-child) {
+            margin-bottom: 80px;
+        }
+    }
+
+    &__content {
+        margin-left: 50px;
+    }
+
+    &__title {
+        font-size: 22px;
+        color: $primaryColor;
+    }
+
+    &__btns {
+        margin-top: 50px;
+        text-align: right;
+
+        a:first-child {
+            margin-right: 10px;
+        }
+    }
+}

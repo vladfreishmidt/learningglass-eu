@@ -1,0 +1,55 @@
+
+.textvideo {
+    background-color: $primaryColor;
+    color: #fff;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__left-col {
+        width: 45%;
+    }
+
+    &__right-col {
+        width: 45%;
+    }
+    
+    &__title {
+        color: #fff;
+        text-align: left;
+        margin: 0 0 15px 0;
+    }
+
+    &__sub-title {
+        margin: 0 0 30px 0;
+        letter-spacing: 1.5px;
+    }
+
+    &__description {
+        line-height: 1.4;
+        margin-bottom: 40px;
+    }
+
+    /* WISTIA STYLES */
+
+    .wistia_embed {
+        box-shadow: 12px 12px 0px rgba(255, 255, 255, .2);
+        border-radius: 10px;
+        transition: all .3s ease-out;
+        background-image: url(../assets/images/icons/loader.gif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 10%;
+    }
+    .wistia_embed:hover {
+        border-radius: 0px;
+        box-shadow: -12px -12px 0px rgba(255, 255, 255, .2);
+    }
+    
+    .wistia_embed img {
+        border-radius: 10px;
+    }
+    
+}

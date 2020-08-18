@@ -1,0 +1,84 @@
+.research-body {
+    .large-hero__text-content {
+        width: 100%;
+        position: static;
+        text-align: center;
+        color: #fff;
+        padding: 80px 0;
+    }
+
+    .large-hero {
+        background-color: $primaryColor;
+
+        &__title {
+            font-size: 40px;
+        }
+    }
+}
+
+.research {
+    width: 70%;
+    margin: 0 auto;
+
+    &__inner {
+        padding: 0 0 0 20px;
+        border-left: 3px solid $primaryColor;
+    }
+
+    &__text {
+        line-height: 1.4;
+    }
+
+    &__images {
+        margin: 40px 0;
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+
+    &__title {
+        font-size: 20px;
+        color: $primaryColor;
+        margin-top: 20px;
+    }
+
+    &__link {
+        font-size: 20px;
+        text-transform: capitalize;
+        display: block;
+        width: 20%;
+        margin: 0 auto;
+    }
+
+    &__download-box {
+        width: 40%;
+        margin: 70px auto 0;
+        padding: 40px;
+        box-shadow: $boxShadow;
+        text-align: center;
+        border-radius: $borderRadius;
+        transition: all .3s ease-in-out;
+
+        &:hover {
+            transform: translateY(-20px);
+        }
+    }
+
+
+    &__download-title {
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+
+    &__download-input {
+        font-size: 18px;
+        padding: 15px;
+        display: block;
+        width: 70%;
+        margin: 0 auto 30px;
+        border: 1px solid rgb(232, 230, 230);
+        border-radius: $borderRadius;
+        outline: none;
+        color: $primaryColor;
+    }
+}

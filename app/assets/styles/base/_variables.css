@@ -1,0 +1,12 @@
+
+/* COLORS */
+$primaryColor: #4a5df2;
+$textColor: #4e4e4e;
+
+
+/* FONTS */
+$mainFont: 'PT Sans', sans-serif;
+
+/* OTHER */
+$boxShadow: 2px 2px 10px rgba(0, 0, 0, .1);
+$borderRadius: 5px;

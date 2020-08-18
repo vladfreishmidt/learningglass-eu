@@ -1,0 +1,28 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    color: #4e4e4e;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 100px 0;
+
+    &__title {
+        font-size: 38px;
+        font-weight: 400;
+        color: $primaryColor;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 80px;
+    }
+}

@@ -1,0 +1,33 @@
+
+.nav {
+
+    &__list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    &__list-item {
+        display: inline-block;
+    }
+
+    &__list-item {
+        margin-right: 30px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    &__link {
+        font-size: 17px;
+        text-decoration: none;
+        font-family: $mainFont;
+        color: $primaryColor;
+    }
+
+    &__link--active {
+        font-weight: 700;
+        pointer-events: none;
+    }
+}

@@ -1,0 +1,29 @@
+
+.works {
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__list {
+        list-style: none;
+    }
+
+    &__list-item {
+        padding-left: 30px;
+        margin-bottom: 40px;
+        position: relative;
+
+        &::before {
+            content: '';
+            width: 20px;
+            height: 23px;
+            background-image: url(assets/images/icons/check-circle.svg);
+            background-size: cover;
+            position: absolute;
+            left: 0;
+            top: -4px;
+        }
+    }
+}

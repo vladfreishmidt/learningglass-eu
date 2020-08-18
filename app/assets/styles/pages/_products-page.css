@@ -1,0 +1,46 @@
+.products-body {
+    .large-hero__text-content {
+        width: 40%;
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        text-align: center;
+        color: #fff;
+        transform: translateX(-50%);
+    }
+
+    .btn--circle-text {
+        padding-top: 85px;
+        font-weight: 400;
+        color: #fff;
+        position: relative;
+
+        &::before {
+            content: '';
+            height: 85px;
+            width: 85px;
+            border-radius: 50%;
+            position: absolute;
+            top: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+            transition: all .3s ease-in-out;
+        }
+
+        &:first-child {
+            margin-left: 10px;
+        }
+
+        &:hover {
+            color: #fff;
+            font-weight: 700;
+        }
+        &:hover::before {
+            top: -20px;
+        }
+    }
+
+    .testimonials {
+        padding: 100px 0;
+    }
+}

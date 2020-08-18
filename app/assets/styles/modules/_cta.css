@@ -1,0 +1,9 @@
+
+.cta {
+    background-color: $primaryColor;
+    text-align: center;
+    
+    &__title {
+        color: #fff;
+    }
+}

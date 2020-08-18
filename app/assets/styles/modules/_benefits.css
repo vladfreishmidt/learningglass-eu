@@ -1,0 +1,39 @@
+
+.benefits {
+    
+    &__image-view {
+        display: block;
+        margin: 0 auto 120px;
+        text-align: center;
+    }
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__box {
+        width: 320px;
+        height: 360px;
+        padding: 40px 25px;
+        border-radius: 5px;
+        box-shadow: $boxShadow;
+        text-align: center;
+        transition: all .3s ease-in-out;
+
+        &:hover {
+            transform: translateY(-20px);
+        }
+    }
+
+    &__box-title {
+        font-size: 22px;
+        color: $primaryColor;
+    }
+
+    &__box-description {
+        font-size: 16px;
+        color: $textColor;
+        line-height: 1.5;
+    }
+}
