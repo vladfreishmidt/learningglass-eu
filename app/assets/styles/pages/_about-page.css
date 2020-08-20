@@ -1,0 +1,11 @@
+.about-body {
+    .section__title {
+        color: #fff;
+        font-size: 44px;
+    }
+
+    section {
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+}

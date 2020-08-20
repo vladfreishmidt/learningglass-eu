@@ -3,27 +3,41 @@
 
     &__inner {
         display: flex;
-        justify-content: space-between;
+        align-items: center;
+
+        &:not(:last-child) {
+            margin-bottom: 100px;
+        }
     }
 
     &__list {
         list-style: none;
+        padding-inline-start: 0;
     }
 
     &__list-item {
         padding-left: 30px;
         margin-bottom: 40px;
         position: relative;
+        line-height: 1.4;
+
+        ul {
+            margin-top: 20px;
+        }
 
         &::before {
             content: '';
             width: 20px;
-            height: 23px;
-            background-image: url(assets/images/icons/check-circle.svg);
+            height: 18px;
+            background-image: url(assets/images/icons/board-icon.svg);
             background-size: cover;
             position: absolute;
             left: 0;
-            top: -4px;
+            top: 2px;
         }
     }
+}
+
+.list-title--left {
+    text-align: left;
 }
