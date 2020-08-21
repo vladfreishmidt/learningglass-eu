@@ -1,12 +1,9 @@
 .products-body {
-    .large-hero__text-content {
-        width: 40%;
-        position: absolute;
-        top: 20%;
-        left: 50%;
-        text-align: center;
-        color: #fff;
-        transform: translateX(-50%);
+
+    .mid-hero {
+        background:linear-gradient(0deg, rgba(74, 93, 242, 1), rgba(74, 93, 242, .5)), url(../assets/images/product-bg.png);
+        background-repeat: no-repeat;
+        background-position: center center;
     }
 
     .btn--circle-text {

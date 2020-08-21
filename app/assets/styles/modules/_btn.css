@@ -114,6 +114,7 @@
 
         &:hover {
             color: $primaryColor;
+            font-weight: 700;
         }
     }
 

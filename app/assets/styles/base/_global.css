@@ -15,6 +15,7 @@ img {
 
     &--small {
         max-width: 968px;
+        margin: 0 auto;
     }
 }
 
@@ -28,6 +29,14 @@ img {
         text-align: center;
         margin-top: 0;
         margin-bottom: 50px;
+    }
+
+    &__text-box {
+        margin-bottom: 50px;
+    }
+
+    &__text-p {
+        margin: 40px 0;
     }
 }
 

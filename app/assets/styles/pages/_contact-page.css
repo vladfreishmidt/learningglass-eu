@@ -1,0 +1,27 @@
+.contact {
+    padding: 0;
+
+    &__address-box {
+        width: 300px;
+        box-shadow: $boxShadow;
+        border-radius: $borderRadius;
+        padding: 40px;
+    }
+}
+
+.contact__adress {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0 80px;
+}
+
+.contact__adress-box {
+    width: 450px;
+    box-shadow: $boxShadow;
+    border-radius: $borderRadius;
+    padding: 40px;
+
+    div {
+        margin: 15px 0;
+    }
+}

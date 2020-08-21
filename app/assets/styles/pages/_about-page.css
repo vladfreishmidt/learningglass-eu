@@ -1,11 +1,42 @@
 .about-body {
-    .section__title {
-        color: #fff;
-        font-size: 44px;
-    }
-
+ 
     section {
         padding-top: 50px;
-        padding-bottom: 80px;
+        padding-bottom: 50px;
+    }
+}
+
+.team {
+
+    padding-top: 0 !important;
+
+    &__box {
+        display: flex;
+        align-items: center;
+        padding: 40px;
+        box-shadow: $boxShadow;
+        border-radius: $borderRadius;
+
+        &:not(:last-child) {
+            margin-bottom: 40px;
+        }
+    }
+
+    &__img {
+        display: block;
+        border-radius: 50%;
+        height: 150px;
+        margin-right: 40px;
+    }
+
+    &__name {
+        font-size: 24px;
+        color: $primaryColor;
+    }
+
+    &__role {
+        font-size: 20px;
+        color: $textColor;
+        font-weight: 400;
     }
 }

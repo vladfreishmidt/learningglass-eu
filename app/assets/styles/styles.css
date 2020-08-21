@@ -16,9 +16,12 @@
 @import 'modules/_products';
 @import 'modules/_videos';
 @import 'modules/_cta';
+@import 'modules/_mid-hero';
+@import 'modules/_small-hero';
 
 @import 'pages/_products-page';
 @import 'pages/_research-page';
 @import 'pages/_research-embed-page';
 @import 'pages/_about-page';
+@import 'pages/_contact-page';
 
