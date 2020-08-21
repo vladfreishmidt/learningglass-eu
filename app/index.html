@@ -12,35 +12,36 @@
 </head>
 
 <body>
-  <header class="header">
-    <a href="#">
-      <img class="header__logo" src="assets/images/demo-logo.png" alt="logo">
-    </a>
 
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__list-item"><a class="nav__link" href="products.html">Products</a></li>
-        <li class="nav__list-item"><a class="nav__link" href="videos.html">Videos</a></li>
-        <li class="nav__list-item"><a class="nav__link" href="education.html">Education</a></li>
-        <li class="nav__list-item"><a class="nav__link" href="research.html">Research</a></li>
-        <li class="nav__list-item"><a class="nav__link" href="about.html">About LG</a></li>
-        <li class="nav__list-item"><a class="nav__link" href="contact.html">Contact us</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <div class="large-hero">
-    <img class="large-hero__image" src="assets/images/thumbnail-home.jpg">
-    <div class="large-hero__text-content">
+  <!-- hero start -->
+  <div class="large-hero video-hero">
+    <div class="fullscreen-video-wrap">
+      <video src="assets/images/hero-video-bg.mp4" autoplay="true" loop="true" muted="true"></video>
+    </div>
+
+    <div class="header-overlay"></div>
+
+    <header class="header header--video">
+      <a href="#">
+        <img class="header__logo" src="assets/images/demo-logo.png" alt="logo">
+      </a>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__list-item"><a class="nav__link" href="products">Products</a></li>
+          <li class="nav__list-item"><a class="nav__link" href="videos">Videos</a></li>
+          <li class="nav__list-item"><a class="nav__link" href="education">Education</a></li>
+          <li class="nav__list-item"><a class="nav__link" href="research">Research</a></li>
+          <li class="nav__list-item"><a class="nav__link" href="about">About LG</a></li>
+          <li class="nav__list-item"><a class="nav__link" href="contact">Contact us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="large-hero__text-content video-hero__text-content">
       <h1 class="large-hero__title">Learning Glass</h1>
       <p class="large-hero__description">
-        <!--  <span style="--i:1;">E</span>
-        <span style="--i:2;">d</span>
-        <span style="--i:3;">u</span>
-        <span style="--i:4;">c</span>
-        <span style="--i:5;">a</span>
-        <span style="--i:6;">t</span>
-        <span style="--i:7;">e.</span> -->
         Engage.
       </p>
       <p class="large-hero__description">
@@ -58,12 +59,12 @@
             in action</a>
         </span>
 
-        <a href="products.html" class="btn btn--circle-text btn--product">
-          Explore product line
+        Explore product line
         </a>
       </div>
     </div>
   </div>
+  <!-- hero end -->
 
   <div class="section benefits">
     <div class="container">
@@ -127,7 +128,7 @@
             participants -- to learn from you as if you were in the same room. There are is no new technology for
             instructors to master, they simply write on the glass as if they were using a whiteboard.
           </p>
-          <a href="products.html" class="btn btn--gost btn--gost-white">Explore Product Line</a>
+          <a href="products" class="btn btn--gost btn--gost-white">Explore Product Line</a>
         </div>
         <!-- left col end-->
         <!-- right col start -->
