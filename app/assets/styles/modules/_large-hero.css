@@ -106,7 +106,7 @@ header.header--video {
 }
 
 .video-hero__text-content {
-    z-index: 2;
+    z-index: 1;
 }
 
 .fullscreen-video-wrap {

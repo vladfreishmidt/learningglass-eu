@@ -32,3 +32,17 @@
         border-bottom: 3px solid $primaryColor;
     }
 }
+
+.nav-mobile {
+    display: none;
+}
+
+@media (max-width: 1145px) {
+    .nav-desktop {
+        display: none;
+    }
+
+    .nav-mobile {
+        display: block;
+    }
+}
