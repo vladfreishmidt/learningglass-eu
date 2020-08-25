@@ -63,6 +63,23 @@
     }
 }
 
+
+@media (max-width: 1200px) {
+    .large-hero { 
+        &__text-content {
+            width: 100%;
+            left: 0;
+        }
+
+        &__buttons {
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }    
+}
+
+
 .video-hero {
     height: 100vh
 
@@ -82,7 +99,7 @@ header.header--video {
         font-size: 20px;
 
         &:hover {
-            color: $primaryColor;
+            color: $neonColor;
             font-weight: 700;
         }
     }

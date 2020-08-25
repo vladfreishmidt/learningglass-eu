@@ -113,7 +113,7 @@
         }
 
         &:hover {
-            color: $primaryColor;
+            color: $neonColor;
             font-weight: 700;
         }
     }
@@ -121,7 +121,7 @@
     &--play {
         
         &::before {
-            background:url(../assets/images/icons/btn__icon-play.png) repeat, #fff;
+            background:url(assets/images/icons/btn__icon-play.png) repeat, #fff;
             background-position: 57% center; 
             background-repeat: no-repeat;
 
@@ -131,7 +131,7 @@
     &--product {
         
         &::before {
-            background:url(../assets/images/icons/btn__icon-board.png) repeat, #fff;
+            background:url(assets/images/icons/btn__icon-board.png) repeat, #fff;
             background-position: center; 
             background-repeat: no-repeat;
 
