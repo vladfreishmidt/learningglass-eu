@@ -53,3 +53,37 @@
     }
     
 }
+
+
+@media (max-width: 979px) {
+    .textvideo__inner {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .textvideo__left-col {
+        width: 100%;
+        text-align: center;
+    }
+
+    .textvideo__right-col {
+        width: 60%;
+    }
+
+    .textvideo__right-col {
+        margin-bottom: 50px;
+    }
+
+    .textvideo__title {
+        text-align: center;
+    }
+}
+
+@media (max-width: 630px) {
+    .textvideo__right-col {
+        width: 90%;
+    }
+}

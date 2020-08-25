@@ -40,6 +40,18 @@ img {
     }
 }
 
+@media (max-width: 1010px) {
+    .section {
+        padding: 60px 0;
+    }
+}
+
 .text--bold {
     font-weight: 700;
+}
+
+@media (max-width: 446px) {
+    .section__title {
+        font-size: 24px;
+    } 
 }

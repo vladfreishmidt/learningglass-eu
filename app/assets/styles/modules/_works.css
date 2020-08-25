@@ -1,5 +1,6 @@
 
 .works {
+    overflow-x: hidden;
 
     &__inner {
         display: flex;
@@ -50,4 +51,32 @@
 .works__img--nomargin {
     margin: 0;
     margin-left: 50px;
+}
+
+@media (max-width: 1282px) {
+    .works__inner {
+
+        .section__title {
+            text-align: center;
+        }
+
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+
+        &:first-child {
+            flex-direction: column;
+        }
+    }
+
+    .works__img {
+        
+        display: block; 
+        margin: 0 auto 40px; 
+    }
+
+    .works__inner:not(:last-child) {
+        margin-bottom: 60px;
+    }
 }

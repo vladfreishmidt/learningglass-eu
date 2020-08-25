@@ -118,8 +118,9 @@
 
 .menu-wrap .menu > div {
     background: var(--overlay-color);
+    border-radius: 10%;
     width: 200vw;
-    height: 200vw;
+    height: 200vh;
     display: flex;
     flex: none;
     align-items: center;

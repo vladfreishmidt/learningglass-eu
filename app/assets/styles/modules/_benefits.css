@@ -14,8 +14,9 @@
     }
 
     &__box {
-        width: 320px;
+        width: 26%;
         height: 360px;
+        margin: 20px;
         padding: 40px 25px;
         border-radius: 5px;
         box-shadow: $boxShadow;
@@ -37,5 +38,29 @@
         color: $textColor;
         line-height: 1.5;
         text-align: justify;
+    }
+}
+
+@media (max-width: 1256px) {
+    .benefits__inner {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1066px) {
+    .benefits__box {
+        width: 50%;
+    }
+}
+
+@media (max-width: 691px) {
+    .benefits__box {
+        width: 100%;
+    }
+}
+
+@media (max-width: 374px) {
+    .benefits__box {
+        height: auto;
     }
 }
