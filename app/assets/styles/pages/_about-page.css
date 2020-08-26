@@ -40,3 +40,14 @@
         font-weight: 400;
     }
 }
+
+@media (max-width: 768px) {
+    .team__box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .team__img {
+        margin-right: 0;
+    }
+}

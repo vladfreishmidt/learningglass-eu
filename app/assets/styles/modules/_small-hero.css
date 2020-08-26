@@ -12,3 +12,11 @@
         margin-bottom: 40px;
     }
 }
+
+@media (max-width: 620px) {
+    .small-hero .small-hero__title {
+        font-size: 30px;
+        text-align: center;
+        line-height: 1.4;
+    }
+}

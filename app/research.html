@@ -15,11 +15,12 @@
 <body class="research-body">
     <header class="header">
         <a href="#">
-            <img class="header__logo" src="assets/images/demo-logo.png" alt="logo">
+            <img class="header__logo" src="assets/images/learningglass-logo.svg" alt="Learning Glass Europe">
         </a>
 
+        <!-- Desktop Navigation start -->
         <nav class="nav">
-            <ul class="nav__list">
+            <ul class="nav__list nav-desktop">
                 <li class="nav__list-item"><a class="nav__link" href="/">Home</a></li>
                 <li class="nav__list-item"><a class="nav__link" href="products">Products</a></li>
                 <li class="nav__list-item"><a class="nav__link" href="videos">Videos</a></li>
@@ -29,6 +30,33 @@
                 <li class="nav__list-item"><a class="nav__link" href="contact">Contact us</a></li>
             </ul>
         </nav>
+        <!-- Desktop Navigation end -->
+
+        <!-- Mobile Navigation start -->
+        <div class="menu-wrap nav-mobile">
+            <input type="checkbox" class="toggler">
+            <div class="hamburger hamburger--primary">
+                <div></div>
+            </div>
+            <div class="menu">
+                <div>
+                    <div>
+                        <ul class="nav__list">
+                            <li class="nav__list-item"><a class="nav__link" href="/">Home</a></li>
+                            <li class="nav__list-item"><a class="nav__link" href="/products">Products</a>
+                            </li>
+                            <li class="nav__list-item"><a class="nav__link" href="videos">Videos</a></li>
+                            <li class="nav__list-item"><a class="nav__link" href="education">Education</a></li>
+                            <li class="nav__list-item"><a class="nav__link menu__link--active" href="#">Research</a>
+                            </li>
+                            <li class="nav__list-item"><a class="nav__link" href="about">About LG</a></li>
+                            <li class="nav__list-item"><a class="nav__link" href="contact">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Navigation end -->
     </header>
 
     <div class="large-hero">

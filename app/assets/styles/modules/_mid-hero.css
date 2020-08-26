@@ -27,6 +27,14 @@
             margin-bottom: 20px;
         }
     }
+
+    .mid-hero__buttons {
+        margin-top: 30px;
+    }
+
+    .btn--circle-text::before {
+        top: 0px;
+    }
 }
 
 @media (max-width: 376px) {

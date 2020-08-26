@@ -82,3 +82,45 @@
         color: $primaryColor;
     }
 }
+
+@media (max-width: 1245px) {
+    .research {
+        width: 100%;
+    }
+
+    .research-body .large-hero__title {
+        font-size: 30px;
+    }
+    
+    .research-body .section__title {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 758px) {
+    .research__images {
+        flex-direction: column;
+    }
+
+    .research__img-box:first-child {
+        margin-bottom: 40px;
+    }
+
+    .research__link {
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .research-body .section__title {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+}
+
+@media (max-width: 758px) {
+    .research-body .large-hero__title {
+        font-size: 22px;
+        line-height: 1.4;
+    }
+}

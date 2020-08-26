@@ -15,6 +15,7 @@ img {
 
     &--small {
         max-width: 968px;
+        padding: 0 15px;
         margin: 0 auto;
     }
 }
@@ -36,6 +37,8 @@ img {
     }
 
     &__text-p {
+        font-size: 18px;
+        line-height: 1.4;
         margin: 40px 0;
     }
 }
@@ -48,6 +51,12 @@ img {
 
 .text--bold {
     font-weight: 700;
+}
+
+@media (max-width: 620px) {
+    .section__text-p {
+        margin: 20px 0;
+    }
 }
 
 @media (max-width: 446px) {
