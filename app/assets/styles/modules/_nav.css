@@ -33,6 +33,18 @@
     }
 }
 
+.menu {
+    a {
+        color: #fff;
+    }
+
+    &__link--active {
+        color: $neonColor !important;
+        font-weight: 700;
+        pointer-events: none;
+    }
+}
+
 .nav-mobile {
     display: none;
 }

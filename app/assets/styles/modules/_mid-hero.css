@@ -17,3 +17,24 @@
         margin-top: 70px;
     }
 }
+
+@media (max-width: 768px) {
+    .mid-hero {
+        height: 300px;
+
+        &__title {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media (max-width: 376px) {
+    .mid-hero {
+
+        &__title {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+    }
+}

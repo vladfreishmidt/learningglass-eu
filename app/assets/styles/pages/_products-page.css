@@ -38,6 +38,52 @@
     }
 
     .testimonials {
-        padding: 100px 0;
+        padding: 80px 0 20px 0;
+    }
+}
+
+@media (max-width: 964px) {
+    .products__box {
+        flex-direction: column;
+    }
+
+    .products__content {
+        margin-left: 0;
+        margin-top: 50px;
+    }
+
+    .products__btns {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .products-body .mid-hero {
+        background-size: contain;
+    }
+
+    .btn--circle-text::before {
+        width: 60px; 
+        height: 60px;
+    }
+
+    .btn--play::before {
+        background-size: 40%;
+    }
+
+    .btn--product::before {
+        background-size: 50%;
+    }
+}
+
+@media (max-width: 500px) {
+    .products__btns {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .products__btns a:first-child {
+        margin-right: 0;
+        margin-bottom: 20px;
     }
 }
