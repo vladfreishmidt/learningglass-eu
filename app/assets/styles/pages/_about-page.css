@@ -1,4 +1,11 @@
 .about-body {
+
+    .small-hero {
+        background: linear-gradient(0deg, rgba(74, 93, 242, 1), rgba(74, 93, 242, .5)), url(../assets/images/mid-hero-bg.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
  
     section {
         padding-top: 50px;
@@ -38,6 +45,13 @@
         font-size: 20px;
         color: $textColor;
         font-weight: 400;
+    }
+
+    &__link {
+        height: 25px;
+        display: inline-block;
+        margin-right: 10px;
+        transform: translateY(4px);
     }
 }
 

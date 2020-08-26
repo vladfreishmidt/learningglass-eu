@@ -8,6 +8,14 @@ img {
     height: auto;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: $primaryColor;
+}
+
 .container {
     max-width: 1230px;
     padding: 0 15px;
