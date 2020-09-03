@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <link rel="icon" href="assets/images/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap"
         rel="stylesheet">
@@ -13,22 +14,63 @@
 
 <body class="research-embed-body research-body">
     <header class="header">
-        <a href="#">
-            <img class="header__logo" src="assets/images/demo-logo.png" alt="logo">
+        <a href="/">
+            <img class="header__logo" src="assets/images/learningglass-logo.svg" alt="Learning Glass Europe">
         </a>
 
+        <!-- Desktop Navigation start -->
         <nav class="nav">
-            <ul class="nav__list">
+            <ul class="nav__list nav-desktop">
                 <li class="nav__list-item"><a class="nav__link" href="/">Home</a></li>
                 <li class="nav__list-item"><a class="nav__link" href="products">Products</a></li>
-                <li class="nav__list-item"><a class="nav__link" href="education">Education</a></li>
+                <li class="nav__list-item"><a class="nav__link" href="tips">Tips</a></li>
                 <li class="nav__list-item"><a class="nav__link" href="videos">Videos</a></li>
+                <li class="nav__list-item"><a class="nav__link" href="education">Education</a></li>
                 <li class="nav__list-item"><a class="nav__link nav__link--active" href="#">Research</a></li>
                 <li class="nav__list-item"><a class="nav__link" href="about">About LG</a></li>
                 <li class="nav__list-item"><a class="nav__link" href="contact">Contact</a></li>
             </ul>
         </nav>
+        <!-- Desktop Navigation end -->
+
+        <!-- Mobile Navigation start -->
+        <div class="menu-wrap nav-mobile">
+            <input type="checkbox" class="toggler">
+            <div class="hamburger hamburger--primary">
+                <div></div>
+            </div>
+            <div class="menu">
+                <div>
+                    <div>
+                        <ul class="nav__list">
+                            <li class="nav__list-item"><a class="nav__link" href="/">Home</a></li>
+                            <li class="nav__list-item"><a class="nav__link" href="/products">Products</a>
+                            </li>
+                            <li class="nav__list-item"><a class="nav__link" href="tips">Tips</a></li>
+                            <li class="nav__list-item"><a class="nav__link" href="videos">Videos</a></li>
+                            <li class="nav__list-item"><a class="nav__link" href="education">Education</a></li>
+                            <li class="nav__list-item"><a class="nav__link menu__link--active" href="#">Research</a>
+                            </li>
+                            <li class="nav__list-item"><a class="nav__link" href="about">About LG</a></li>
+                            <li class="nav__list-item"><a class="nav__link" href="contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Navigation end -->
     </header>
+
+    <!-- sub-header start -->
+    <div class="sub-header">
+        <div class="container">
+            <div class="sub-header__inner">
+                <a class="sub-header__link" href="tel:+4402070787526">+44 (0) 20 7078 7526</a>
+                <a class="sub-header__link" href="mailto:info@learningglass.eu">info@learningglass.eu</a>
+            </div>
+        </div>
+    </div>
+    <!-- sub-header end -->
 
     <div class="large-hero">
         <div class="container container--small">
@@ -56,15 +98,17 @@
         <div class="container">
             <div class="footer__inner">
                 <div class="footer__left-col">
-                    <p class="footer__address">© 2020Learning Glass Europe B.V.</p>
+                    <p class="footer__address">© 2020 Learning Glass Europe B.V.</p>
                     <p class="footer__address">Swaneblakestraat 10</p>
                     <p class="footer__address">3044 EM Rotterdam</p>
                     <p class="footer__address">Netherlands</p>
                     <div class="footer__links">
                         <a class="footer__link" href="#">+44 (0) 20 7078 7526</a>
-                        <a class="footer__link" href="#">info@learningglass.eu</a>
+                        <a class="footer__link" href="mailto:info@learningglass.eu">info@learningglass.eu</a>
                     </div>
-                    <a class="footer__link" href="#">Privacy Policy</a>
+                    <a class="footer__link" href="https://www.iubenda.com/privacy-policy/65174956"
+                        target="_blank">Privacy
+                        Policy</a>
                 </div>
                 <div class="footer__right-col">
                     <a href="https://www.linkedin.com/company/learning-glass-europe/" target="_blank">

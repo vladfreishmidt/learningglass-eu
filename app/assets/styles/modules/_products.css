@@ -22,6 +22,11 @@
         color: $primaryColor;
     }
 
+    &__description {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+
     &__btns {
         margin-top: 50px;
         text-align: right;

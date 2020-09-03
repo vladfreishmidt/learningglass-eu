@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <link rel="icon" href="assets/images/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap"
         rel="stylesheet">
@@ -22,6 +23,7 @@
             <ul class="nav__list nav-desktop">
                 <li class="nav__list-item"><a class="nav__link" href="/">Home</a></li>
                 <li class="nav__list-item"><a class="nav__link nav__link--active" href="products.html">Products</a></li>
+                <li class="nav__list-item"><a class="nav__link" href="tips">Tips</a></li>
                 <li class="nav__list-item"><a class="nav__link" href="videos">Videos</a></li>
                 <li class="nav__list-item"><a class="nav__link" href="education">Education</a></li>
                 <li class="nav__list-item"><a class="nav__link" href="research">Research</a></li>
@@ -43,6 +45,7 @@
                         <ul class="nav__list">
                             <li class="nav__list-item"><a class="nav__link" href="/">Home</a></li>
                             <li class="nav__list-item"><a class="nav__link menu__link--active" href="#">Products</a>
+                            <li class="nav__list-item"><a class="nav__link" href="tips">Tips</a></li>
                             </li>
                             <li class="nav__list-item"><a class="nav__link" href="videos">Videos</a></li>
                             <li class="nav__list-item"><a class="nav__link" href="education">Education</a></li>
@@ -55,20 +58,29 @@
             </div>
         </div>
         <!-- Mobile Navigation end -->
-
     </header>
+
+    <!-- sub-header start -->
+    <div class="sub-header">
+        <div class="container">
+            <div class="sub-header__inner">
+                <a class="sub-header__link" href="tel:+4402070787526">+44 (0) 20 7078 7526</a>
+                <a class="sub-header__link" href="mailto:info@learningglass.eu">info@learningglass.eu</a>
+            </div>
+        </div>
+    </div>
+    <!-- sub-header end -->
 
     <div class="mid-hero">
         <div class="mid-hero__content">
             <h1 class="mid-hero__title">Learning Glass Product Line</h1>
             <div class="mid-hero__buttons">
-                <script src="https://fast.wistia.com/embed/medias/03uo9su4l0.jsonp" async></script>
+                <script src="https://fast.wistia.com/embed/medias/muvzokhst3.jsonp" async></script>
                 <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span
                     style="box-shadow: none !important; background-image: none !important;"
-                    class="wistia_embed wistia_async_03uo9su4l0 popover=true popoverAnimateThumbnail=true popoverContent=link"
+                    class="wistia_embed wistia_async_muvzokhst3 popover=true popoverAnimateThumbnail=true popoverContent=link"
                     style="display:inline;position:relative"><a class="btn btn--circle-text btn--play" href="#">See it
-                        in action</a>
-                </span>
+                        in action</a></span>
             </div>
         </div>
     </div>
@@ -78,7 +90,7 @@
             <h2 class="section__title">Learning Glass Lightboards</h2>
             <div class="products__inner">
                 <!-- products box start -->
-                <div class="products__box">
+                <div class="products__box" id="home-lightboard">
                     <img src="assets/images/products/LGS33G-1-550x500-copy-300x273.png"
                         alt="LGS33G TABLE TOP LIGHTBOARD" class="products__img">
                     <div class="products__content">
@@ -101,7 +113,8 @@
                         </p>
 
                         <div class="products__btns">
-                            <a class="btn btn--gost" href="#">See full specs</a>
+                            <a class="btn btn--gost" href="https://learningglass.eu/LGS33-Specification-Sheet LGE.pdf"
+                                target="_blank">See full specs</a>
                             <a class="btn btn--primary" href="contact"><span>Book a demo</span></a>
                         </div>
                     </div>
@@ -131,14 +144,16 @@
                         </p>
 
                         <div class="products__btns">
-                            <a class="btn btn--gost" href="#">See full specs</a>
+                            <a class="btn btn--gost" href="https://learningglass.eu/LGS66T-Specification-Sheet LGE.pdf"
+                                target="_blank">See
+                                full specs</a>
                             <a class="btn btn--primary" href="contact">Book a demo</a>
                         </div>
                     </div>
                 </div>
                 <!-- products box end -->
                 <!-- products box start -->
-                <div class="products__box">
+                <div class="products__box" id="studio-lightboard">
                     <img src="assets/images/products/LGS66T-1-550x500-300x273.png" alt="LGS33G TABLE TOP LIGHTBOARD"
                         class="products__img">
                     <div class="products__content">
@@ -161,7 +176,8 @@
                         </p>
 
                         <div class="products__btns">
-                            <a class="btn btn--gost" href="#">See full specs</a>
+                            <a class="btn btn--gost" href="https://learningglass.eu/LGS66T-Specification-Sheet LGE.pdf"
+                                target="_blank">See full specs</a>
                             <a class="btn btn--primary" href="contact">Book a demo</a>
                         </div>
                     </div>
@@ -267,15 +283,17 @@
         <div class="container">
             <div class="footer__inner">
                 <div class="footer__left-col">
-                    <p class="footer__address">© 2020Learning Glass Europe B.V.</p>
+                    <p class="footer__address">© 2020 Learning Glass Europe B.V.</p>
                     <p class="footer__address">Swaneblakestraat 10</p>
                     <p class="footer__address">3044 EM Rotterdam</p>
                     <p class="footer__address">Netherlands</p>
                     <div class="footer__links">
                         <a class="footer__link" href="#">+44 (0) 20 7078 7526</a>
-                        <a class="footer__link" href="#">info@learningglass.eu</a>
+                        <a class="footer__link" href="mailto:info@learningglass.eu">info@learningglass.eu</a>
                     </div>
-                    <a class="footer__link" href="#">Privacy Policy</a>
+                    <a class="footer__link" href="https://www.iubenda.com/privacy-policy/65174956"
+                        target="_blank">Privacy
+                        Policy</a>
                 </div>
                 <div class="footer__right-col">
                     <a href="https://www.linkedin.com/company/learning-glass-europe/" target="_blank">

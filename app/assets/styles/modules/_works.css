@@ -17,6 +17,7 @@
     }
 
     &__list-item {
+        font-size: 18px;
         padding-left: 30px;
         margin-bottom: 40px;
         position: relative;
@@ -53,7 +54,7 @@
     margin-left: 50px;
 }
 
-@media (max-width: 1282px) {
+@media (max-width: 1210px) {
     .works__inner {
 
         .section__title {

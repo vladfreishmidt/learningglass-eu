@@ -19,6 +19,7 @@
 @import 'modules/_cta';
 @import 'modules/_mid-hero';
 @import 'modules/_small-hero';
+@import 'modules/_sub-header';
 
 @import 'pages/_index-page';
 @import 'pages/_products-page';
@@ -27,4 +28,5 @@
 @import 'pages/_research-embed-page';
 @import 'pages/_about-page';
 @import 'pages/_contact-page';
+@import 'pages/_tips-page';
 

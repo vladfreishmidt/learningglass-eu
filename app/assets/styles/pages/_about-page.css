@@ -1,7 +1,7 @@
 .about-body {
 
     .small-hero {
-        background: linear-gradient(0deg, rgba(74, 93, 242, 1), rgba(74, 93, 242, .5)), url(../assets/images/mid-hero-bg.jpg);
+        background: linear-gradient(0deg, rgba(74, 93, 242, 1), rgba(74, 93, 242, .5)), url(../assets/images/about-us-bg.jpg);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
