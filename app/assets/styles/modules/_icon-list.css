@@ -1,0 +1,75 @@
+.icon-list {
+    &__item {
+        padding-left: 85px;
+        position: relative;
+
+        &:not(:last-child) {
+            margin-bottom: 70px;
+        }
+
+        &::before {
+            content: '';
+            width: 65px;
+            height: 65px;
+            background: url(../../assets/images/icons/training-icon--white.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        &--learning {
+            &::before {
+                background: url(../../assets/images/icons/learning-icon--white.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+
+        &--marketing {
+            &::before {
+                background: url(../../assets/images/icons/marketing-icon.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+
+        &--product {
+            &::before {
+                background: url(../../assets/images/icons/product-launches-icon.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+
+        &--explainer {
+            &::before {
+                background: url(../../assets/images/icons/explainer-icon.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+
+        &--investor {
+            &::before {
+                background: url(../../assets/images/icons/investor-icon.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+    }
+
+    &__title {
+        font-size: 24px;
+        color: #fff;
+        text-transform: uppercase;
+        margin: 0 0 20px;
+    }
+
+    &__description {
+        font-size: 20px;
+        color: #fff;
+        line-height: 1.4;
+    }
+}

@@ -1,0 +1,41 @@
+.for-corporates-body {
+    .mid-hero {
+        background: linear-gradient(0deg, rgba(74, 93, 242, 1), rgba(74, 93, 242, .5)), url(../assets/images/top-tips-bg.jpg);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: cover;
+    }
+
+    .benefits {
+        padding: 100px 0;
+    }
+
+    .benefits__box {
+        height: auto;
+
+        h4 {
+            color: $primaryColor;
+            font-size: 20px;
+        }
+
+        &--gaze {
+            background-image: url(../assets/images/gaze-guidance.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        &--gesturing {
+            background-image: url(../assets/images/gesturing.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        &--dynamic {
+            background-image: url(../assets/images/dynamic.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+
+}
+

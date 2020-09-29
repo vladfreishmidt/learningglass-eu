@@ -12,3 +12,11 @@
         height: 90px;
     }
 }
+
+@media (max-width: 500px) {
+    .header {
+        &__logo {
+            height: 60px; 
+        }
+    }
+}

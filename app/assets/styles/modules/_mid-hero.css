@@ -12,6 +12,17 @@
         margin-bottom: 40px;
     }
 
+    &__sub-title {
+        font-size: 18px;
+        line-height: 1.4;
+        color: #fff;
+    }
+
+    &__description {
+        font-size: 22px;
+        color: #fff;
+    }
+
     &__buttons {
         text-align: center;
         margin-top: 70px;

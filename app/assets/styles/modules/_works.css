@@ -14,6 +14,12 @@
     &__list {
         list-style: none;
         padding-inline-start: 0;
+
+        &--nested li {
+            &:not(:last-child) {
+                margin-bottom: 20px;
+            }
+        }
     }
 
     &__list-item {
@@ -37,6 +43,13 @@
             left: 0;
             top: 2px;
         }
+    }
+
+    &__link {
+        font-size: 20px;
+        display: block;
+        text-align: center;
+        text-decoration: underline;
     }
 
     &__img {
@@ -79,5 +92,9 @@
 
     .works__inner:not(:last-child) {
         margin-bottom: 60px;
+    }
+
+    .index-body .works__inner div:first-child {
+        margin-right: 0 !important;
     }
 }

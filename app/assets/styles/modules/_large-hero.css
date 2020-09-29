@@ -179,5 +179,12 @@ header.header--video {
 
 }
 
+@media (max-height: 590px) {
+    .large-hero {
+        &__description {
+            display: none;
+        }
+    }
+}
 
 

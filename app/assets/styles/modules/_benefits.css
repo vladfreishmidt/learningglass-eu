@@ -15,7 +15,7 @@
 
     &__box {
         width: 26%;
-        height: 360px;
+        height: auto;
         margin: 20px;
         padding: 40px 25px;
         border-radius: 5px;

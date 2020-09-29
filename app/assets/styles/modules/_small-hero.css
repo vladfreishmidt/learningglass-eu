@@ -11,6 +11,11 @@
         color: #fff;
         margin-bottom: 40px;
     }
+
+    &__sub-title {
+        font-size: 22px;
+        color: #fff;
+    }
 }
 
 @media (max-width: 620px) {

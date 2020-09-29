@@ -1,0 +1,19 @@
+.form {
+    background: linear-gradient(0deg, rgba(74, 93, 242, 1), rgba(74, 93, 242, .5)), url(../assets/images/contact-bg.jpg);
+
+    &__title {
+        color: #fff;
+    }
+
+    .form-all {
+        background-color: transparent !important;
+    }
+
+    #cid_9 {
+        display: none !important;
+    }
+}
+
+.supernova {
+    background-color: transparent !important;
+}

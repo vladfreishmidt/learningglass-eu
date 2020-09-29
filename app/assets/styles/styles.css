@@ -20,6 +20,10 @@
 @import 'modules/_mid-hero';
 @import 'modules/_small-hero';
 @import 'modules/_sub-header';
+@import 'modules/_form';
+@import 'modules/_lang-widget';
+@import 'modules/_product-cards';
+@import 'modules/_icon-list';
 
 @import 'pages/_index-page';
 @import 'pages/_products-page';
@@ -29,4 +33,6 @@
 @import 'pages/_about-page';
 @import 'pages/_contact-page';
 @import 'pages/_tips-page';
+@import 'pages/_lightboard-for-education';
+@import 'pages/_lightboard-for-corporates';
 

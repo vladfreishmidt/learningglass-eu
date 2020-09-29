@@ -53,6 +53,21 @@
         margin: 0 auto;
         display: block;
     }
+
+    .home-streaming {
+        h3.section__title {
+            font-size: 18px;
+            line-height: 1.5;
+
+            &:nth-child(2) {
+                margin-bottom: 20px;
+            }
+        }
+
+        img {
+            width: 100%;
+        }
+    }
 }
 
 

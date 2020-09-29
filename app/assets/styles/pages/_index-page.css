@@ -11,3 +11,16 @@
         }
     }
 }
+
+.index-body--de {
+    .benefits__box {
+        height: auto;
+        padding: 40px 25px 10px;
+    }
+
+    .large-hero__buttons::before {
+        content: '';
+        width: 1px;
+        height: 50%;
+    }
+}
